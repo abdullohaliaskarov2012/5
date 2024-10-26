@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.orng{
+    color: #F57520;
+}
+.header{
+    background-image: url(img/1.png);
+    width: 1920px;
+    height: 875px;
+    margin: 0 auto;
+}
+.header-text{
+    align-content: center;
+}
+.header-text ul{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 34px;
+    display: flex;
+}
+.header-nav{
+    width: 1920px;
+    height: 105px;
+    display: flex;
+    padding: 30px 320px;
+    justify-content: space-between;
+}
+.header-nav__img{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.header-text2{
+    width:  679px;
+    height: 454px;
+    margin-left: 320px;
+}
+.header-text2 h1{
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+}
+.text3-btn p{
+    width: 645px;
+    height: 85px;
+    color: white;
+    margin-top: 48px;
+}
+.text3-btn button{
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #F57520;
+    border: none;
+    color: white;
+}
+.text3-btn button:hover{
+    font-size: 24px;
+    transition: 2s;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-shadow: -2px -2px 2px;
+    box-shadow: -3px -3px 3px;
+    transform: rotate(360deg);
+    animation-duration: 3s;
+}
+.katalog{
+    width: 1920px;
+    background-color: grey;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 330px;
+}
+.katalog-h1{
+    text-align: center;
+    font-size: 800;
+    font-size: 64px;
+    padding: 109px;
+}
+
+.velosiped{
+    width: 100%;
+    height: 300px;
+    background-color: #F57520;
+    border-radius: 10px;
+}
+.velosiped img{
+    width: 875px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 393px;
+    margin-top: -290px;
+    display: flex;
+}
+.velosiped h3{
+    padding: 122px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.elemeti5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 16px;
+}
+.tradein{
+    width: 400px;
+    height: 458px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 80px 98px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tradein img{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+.zapstan{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box1{
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 29px 24px;
+}
+.box1 img{
+    margin-left: 190px;
+    margin-top: -30px;
+}
+.box3 img{
+    margin-left: 249px;
+    margin-top: -70px;
+}
+.ekipstan{
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box4{
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    color: white;
+    padding: 29px 29px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.box5{
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    color: white;
+    padding: 29px 29px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.box4 img{
+    margin-left: 200px;
+    transform: rotate(360deg);
+    transition: 2s;
+    animation-iteration-count: infinite;
+}
+.box5 img{
+    margin-left: 246px;
+    margin-top: -75px;
+}
+.box1:hover{
+    background-color: #F57520;
+    color:black;
+    transition: 2s;
+}
+.tradein:hover{
+    background-color: #F57520;
+    color: black;
+    transition: 2s;
+}
+.box4:hover{
+    background-color: #F57520;
+    color: black;
+    transition: 2s;
+}
+.box5:hover{
+    background-color: #F57520;
+    color: black;
+    transition: 2s;
+}
+.velosiped:hover{
+    background-color: black;
+    transition: 2s;
+}   
+.cards{
+    width: 1280px;
+    height: 964px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+.card1-text{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 170px;
+}
+.card2{
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 10px;
+}
+.card2 img{
+    border-radius: 10px;
+}
+.card2 h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 24px 27px;
+}
+.card2 p{
+    color: white;
+    padding: 50px;
+}
+.card2:hover{
+    background-color: #F57520;
+    color: black;
+    transition: 2s;
+    box-shadow: 4px 4px 0px teal;
+}
+.card2 p:hover{
+    color: black;
+    transition: 2s;
+    text-shadow: 4px 4px 0px teal;
+}
+.card2 h4:hover{
+    color: black;
+    transition: 2s;
+    text-shadow: 4px 4px 0px teal;
+}
+.card2 img{
+    transform: rotate(360deg);
+    transition: 3s;
+    animation-name: xadado;
+    animation-iteration-count: infinite;
+}
+@keyframes xadado{
+    0%{
+        transform: rotate(0deg);
+        transition: 3s;
+    }
+    100%{
+        transform: rotate(0deg);
+        transition: 3s;
+    }
+}
+.section-form{
+    width: 1920px;
+    height: 636px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #F57520;
+}
+.section-form__form{
+    width: 620px;
+    height: 98px;
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+    margin: 52px 320px;
+}
+.section-form__form:hover{
+    font-size: 84px;
+    width: 720px;
+    transition: 2s;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 0px black;
+
+}
+.forms{
+    width: 630px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 314px;
+}
+.forms:hover{
+    font-size: 34px;
+    color: aqua;
+    background-color: black;
+    border-radius: 20px;
+    transition: 3S;
+}
+.forms input:hover{
+    font-size: 34px;
+    color: aqua;
+    transition: 2s;
+}
+.forms input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: light grey;
+    margin-top: 16px;
+}
+.input2{
+    width: 608px;
+    height: 254px;
+    /* display: flex; */
+    align-items: center;
+}
+.input2 img{
+    margin-left: 695px;
+    margin-top: -565px;
+    width: 900px;
+    height: 637px;
+    align-items: center;
+    background-color: #F57520;
+}
+#inputsobsheniya{
+    width: 608px;
+    height: 154px;
+    text-align: start;
+}
+#inputvopros{
+    width: 608px;
+    height: 52px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: orange;
+}
+#img7{
+    background-image: url(img/image\ 86.png);
+}
+.map{
+    margin-left: 98px;
+}
+.footer img{
+    margin-left: 98px;
+}
